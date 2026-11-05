@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main, vibe/spaas-an-eescht-site-2841d3]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
