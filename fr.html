@@ -6,8 +6,12 @@
 <title>Theatergesellschaft Spaass an Eescht Weimerskirch a.s.b.l. — Théâtre club de Weimerskirch</title>
 <meta name="description" content="Site officiel du théâtre club Spaass an Eescht de Weimerskirch (Luxembourg-Ville) : histoire de la société de chant et de théâtre, actualités et prochaines représentations.">
 <link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,500;1,700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="top">
 
 <header class="hero">
   <div class="hero-inner">
@@ -22,7 +26,12 @@
 </header>
 
 <nav class="nav" id="nav">
-  <ul>
+  <div class="nav-inner">
+    <a class="nav-brand" href="#top">
+      <span class="monogram">S·E</span>
+      <span class="brand-name">Spaass an Eescht<small>Weimerskirch</small></span>
+    </a>
+    <ul class="site-links">
     <li><a href="#accueil">Accueil</a></li>
     <li><a href="#histoire">Histoire</a></li>
     <li><a href="#evenements">Actualités &amp; Événements</a></li>
@@ -34,28 +43,34 @@
     <li><a href="de.html">DE</a></li>
     <li><a href="fr.html" class="active" aria-current="page">FR</a></li>
   </ul>
+</div>
 </nav>
 
 <main>
 
 <section id="accueil" class="section intro">
   <div class="container">
-    <h2>Wëllkomm à Weimerskirch !</h2>
-    <p>Le <strong>Spaass an Eescht</strong> («&nbsp;Plaisir et honneur&nbsp;») est la société de chant et de
+    <div class="section-head reveal">
+      <h2>Wëllkomm à Weimerskirch !</h2>
+      <div class="ornament"><span>&#10022;</span></div>
+    </div>    <p>Le <strong>Spaass an Eescht</strong> («&nbsp;Plaisir et honneur&nbsp;») est la société de chant et de
     théâtre du quartier de Weimerskirch, au nord-est de Luxembourg-Ville. Depuis des générations, la
     troupe fait vivre la scène luxembourgeoise&nbsp;: comédies et pièces dialectales en luxembourgeois,
     cabarets, sketchs et chansons, présentés chaque année au public du quartier.</p>
     <div class="features">
       <div class="feature">
-        <h3>🎭 Théâtre en luxembourgeois</h3>
+        <div class="icon">🎭</div>
+        <h3>Théâtre en luxembourgeois</h3>
         <p>Comédies, farces et pièces du répertoire dialectal, montées avec le cœur par des bénévoles du quartier.</p>
       </div>
       <div class="feature">
-        <h3>🎵 Chant &amp; cabaret</h3>
+        <div class="icon">🎵</div>
+        <h3>Chant &amp; cabaret</h3>
         <p>En tant que société de chant et de théâtre, le club cultive aussi la chanson et les numéros de cabaret.</p>
       </div>
       <div class="feature">
-        <h3>🤝 Vie associative</h3>
+        <div class="icon">🤝</div>
+        <h3>Vie associative</h3>
         <p>Une association sans but lucratif (a.s.b.l.) ancrée dans la vie culturelle de Weimerskirch.</p>
       </div>
     </div>
@@ -64,8 +79,10 @@
 
 <section id="histoire" class="section section-alt">
   <div class="container">
-    <h2>Notre histoire</h2>
-    <div class="timeline">
+    <div class="section-head reveal">
+      <h2>Notre histoire</h2>
+      <div class="ornament"><span>&#10022;</span></div>
+    </div>    <div class="timeline">
       <div class="timeline-item">
         <span class="timeline-date">Origines</span>
         <p>La tradition théâtrale de Weimerskirch remonte bien avant l'officialisation du club&nbsp;: des
@@ -106,8 +123,10 @@
 
 <section id="evenements" class="section">
   <div class="container">
-    <h2>Actualités &amp; prochains événements</h2>
-    <p class="note">Les dates ci-dessous sont communiquées à titre indicatif&nbsp;— consultez la page
+    <div class="section-head reveal">
+      <h2>Actualités &amp; prochains événements</h2>
+      <div class="ornament"><span>&#10022;</span></div>
+    </div>    <p class="note">Les dates ci-dessous sont communiquées à titre indicatif&nbsp;— consultez la page
     Facebook du club ou contactez-nous pour les horaires exacts et la billetterie.</p>
     <div class="events">
       <article class="event">
@@ -141,8 +160,10 @@
 
 <section id="association" class="section section-alt">
   <div class="container">
-    <h2>L'association</h2>
-    <div class="assoc-grid">
+    <div class="section-head reveal">
+      <h2>L'association</h2>
+      <div class="ornament"><span>&#10022;</span></div>
+    </div>    <div class="assoc-grid">
       <div>
         <h3>Comité</h3>
         <ul class="committee">
@@ -173,8 +194,10 @@
 
 <section id="contact" class="section contact">
   <div class="container">
-    <h2>Contact</h2>
-    <p>Pour la billetterie, les réservations de groupe ou rejoindre la troupe&nbsp;:</p>
+    <div class="section-head reveal">
+      <h2>Contact</h2>
+      <div class="ornament"><span>&#10022;</span></div>
+    </div>    <p>Pour la billetterie, les réservations de groupe ou rejoindre la troupe&nbsp;:</p>
     <ul class="contact-list">
       <li>📍 Um Duerf, L-2414 Weimerskirch (Luxembourg-Ville)</li>
       <li>✉️ Contactez-nous via la page Facebook du club ou via l'annuaire Editus
@@ -190,10 +213,12 @@
 <footer class="footer">
   <div class="container">
     <p>© <span id="year">2026</span> Theatergesellschaft Spaass an Eescht Weimerskirch a.s.b.l. — Weimerskirch, Luxembourg</p>
-    <p class="small">«&nbsp;Spaass an Eescht&nbsp;» — le plaisir d'abord, l'honneur ensuite.</p>
+    <div class="rule"></div>
+    <p class="tagline small">«&nbsp;Spaass an Eescht&nbsp;» — le plaisir d'abord, l'honneur ensuite.</p>
   </div>
 </footer>
 
+<script src="js/main.js"></script>
 <script>
 document.getElementById('year').textContent = new Date().getFullYear();
 </script>
